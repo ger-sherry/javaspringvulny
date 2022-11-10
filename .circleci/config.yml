@@ -62,3 +62,6 @@ jobs:
       - run: # run snyk test - run snyk test
           name: snyk test
           command: snyk test
+      - run: # run snyk test - run snyk test
+          name: snyk code test
+          command: snyk code test
